@@ -2,9 +2,7 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
-.container {
-  width: 960px;
-  padding: 10px;
+.container{
   float: left;
 }
 
@@ -12,8 +10,9 @@ ol, ul {
   padding-left: 30px;
 }
 .nobr{
-  margin-top: 50px;
+  margin-top: 40px;
   float: right;
+  margin-left: 50px;
 }
 .board-row:after {
   clear: both;
