@@ -189,57 +189,6 @@ function calculateWinner(squares, i) {
     return null;
 }
 
-
-// function Square(props) {
-//     return (
-//         <button className={props.className} onClick={props.onClick}>
-//             {props.value}
-//         </button>
-//     );
-// }
-
-// function Reverse(props) {
-
-//     return (
-//         <button className= {props.className} onClick={props.onClick}>Reverse</button>
-//     );
-// }
-// class Board extends React.Component {
-
-//     renderSquare(i) {
-//         const winColor = winList.includes(i) ? "win" : "square";
-//         return (
-//             <Square className={winColor}
-//                 value={this.props.squares[i]}
-//                 onClick={() => this.props.onClick(i)}
-//             />
-//         )
-//     }
-
-//     render = () => {
-//         let table = [];
-//         for (let i = 0; i < 20; i++) {
-//             var tmp = [];
-//             for (let j = 0; j < 20; j++) {
-//                 tmp.push(this.renderSquare(i * 20 + j));
-//             }
-
-//             table.push(
-//                 <div key={i} className="board-row">
-//                     {tmp}
-//                 </div>
-//             );
-//         }
-//         return (
-//             <div className="board">
-//                 <div className="container">
-//                     {table}
-//                 </div>
-//             </div>
-//         );
-//     }
-// }
-
 class Game extends React.Component {
     constructor(props) {
         super(props);
